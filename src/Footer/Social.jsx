@@ -4,6 +4,15 @@ import * as React from 'react';
 // Bootstrap
 import { Button } from 'react-bootstrap';
 
+// FontAwesome
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import faLongArrowRight from '@fortawesome/fontawesome-free-solid/faLongArrowAltRight';
+import faFacebook from '@fortawesome/fontawesome-free-brands/faFacebookF';
+import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter';
+import faSkype from '@fortawesome/fontawesome-free-brands/faSkype';
+import faLinkedin from '@fortawesome/fontawesome-free-brands/faLinkedinIn';
+import faGithub from '@fortawesome/fontawesome-free-brands/faGithub';
+
 type Props = {};
 
 const Social = (props: Props) => {
@@ -13,7 +22,9 @@ const Social = (props: Props) => {
       <ul>
         <li>
           <div className="newsletter-box">
-            <Button className="btn bg-gray" />
+            <Button type="button" className="btn bg-gray">
+              <FontAwesomeIcon size="2x" icon={faLongArrowRight} />
+            </Button>
           </div>
         </li>
       </ul>
@@ -22,28 +33,27 @@ const Social = (props: Props) => {
           <a
             href="https://www.facebook.com/alexander.gontcharov"
             title="Facebook">
-            <i class="fa fa-facebook" />
-            hi
+            <FontAwesomeIcon icon={faFacebook} />
           </a>
         </li>
         <li id="twitter">
           <a href="https://twitter.com/a_gontcharov" title="Twitter">
-            <i class="fa fa-twitter" />
+            <FontAwesomeIcon icon={faTwitter} />
           </a>
         </li>
         <li id="skype">
           <a href="skype:alexandergoncharov?chat" title="Skype">
-            <i class="fa fa-skype" />
+            <FontAwesomeIcon icon={faSkype} />
           </a>
         </li>
         <li id="linkedin">
           <a href="https://www.linkedin.com/in/agontcharov">
-            <i class="fa fa-linkedin" title="LinkedIn" />
+            <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </li>
         <li id="github">
           <a href="https://github.com/AGontcharov" title="GitHub">
-            <i class="fa fa-github" />
+            <FontAwesomeIcon icon={faGithub} />
           </a>
         </li>
       </ul>
