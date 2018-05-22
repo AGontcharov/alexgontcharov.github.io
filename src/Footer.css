@@ -1,0 +1,101 @@
+.footer {
+  background: #edeff1;
+  height: auto;
+  padding-bottom: 30px;
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #dddddd;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer h3 {
+  border-bottom: 1px solid #bac1c8;
+  color: #54697e;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  padding: 40px 0 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.footer ul {
+  font-size: 13px;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 15px;
+  color: #7f8c8d;
+  text-align: center;
+}
+
+.github-links li a {
+  display: inline-block;
+  padding-bottom: 4px;
+  font-size: 13px;
+  color: #78828d;
+}
+
+.newsletter-box .btn {
+  border: 1px solid #bac1c8;
+  /* -webkit-border-radius: 3px; */
+  /* -moz-border-radius: 3px; */
+  /* -o-border-radius: 3px; */
+  /* -ms-border-radius: 3px; */
+  border-radius: 3px;
+  display: inline-block;
+  height: 40px;
+  padding: 0;
+  width: 50%;
+  color: #fff;
+}
+
+.newsletter-box .btn:hover {
+  background: white;
+  color: #7f8c8d;
+}
+
+.newsletter-box {
+  overflow: hidden;
+}
+
+.bg-gray {
+  background-color: #dcdcdc;
+  box-shadow: 0 1px 0 #b4b3b3;
+}
+
+.social li:hover {
+  transform: scale(1.15) rotate(360deg);
+  /* -webkit-transform: scale(1.1) rotate(360deg); */
+  /* -moz-transform: scale(1.1) rotate(360deg); */
+  /* -ms-transform: scale(1.1) rotate(360deg); */
+  /* -o-transform: scale(1.1) rotate(360deg); */
+}
+
+.social li a {
+  color: #edeff1; /*color of the icons*/
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.social li a i {
+  font-size: 16px;
+}
+
+.footer-bottom {
+  background: #e3e3e3;
+  border-top: 1px solid #dddddd;
+  padding: 15px 0;
+}
+
+.footer-bottom p {
+  font-size: 13px;
+  margin: 0;
+  padding: 0 15px;
+  text-align: center;
+}
