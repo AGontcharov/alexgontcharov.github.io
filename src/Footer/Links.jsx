@@ -7,7 +7,7 @@ const Links = (props: Props) => {
   return (
     <React.Fragment>
       <h3>Don't forget!</h3>
-      <ul class="github-links">
+      <ul className="github-links">
         <li>
           <a href="https://github.com/AGontcharov/Dialog-System-Compiler">
             Dialog System Compiler

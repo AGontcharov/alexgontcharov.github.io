@@ -16,8 +16,8 @@ type Props = {};
 const Footer = (props: Props) => {
   return (
     <React.Fragment>
-      <Grid fluid style={{ paddingLeft: 0, paddingRight: 0 }}>
-        <div className="footer">
+      <div className="footer">
+        <Grid style={{ paddingLeft: 0, paddingRight: 0 }}>
           <Row>
             <Col xs={12} md={5}>
               <Links />
@@ -26,8 +26,8 @@ const Footer = (props: Props) => {
               <Social />
             </Col>
           </Row>
-        </div>
-      </Grid>
+        </Grid>
+      </div>
 
       <div className="footer-bottom">
         <p>Copyright © 2017 Alexander Gontcharov. All right reserved.</p>

@@ -23,12 +23,13 @@ const Social = (props: Props) => {
         <li>
           <div className="newsletter-box">
             <Button type="button" className="btn bg-gray">
-              <FontAwesomeIcon size="2x" icon={faLongArrowRight} />
+              <React.Fragment>Email </React.Fragment>
+              <FontAwesomeIcon size="1x" icon={faLongArrowRight} />
             </Button>
           </div>
         </li>
       </ul>
-      <ul class="social">
+      <ul className="social">
         <li id="facebook">
           <a
             href="https://www.facebook.com/alexander.gontcharov"
