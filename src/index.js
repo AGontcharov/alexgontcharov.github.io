@@ -12,7 +12,7 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router basename="alexgontcharov.github.io">
     <App />
   </Router>,
   document.getElementById('root')
