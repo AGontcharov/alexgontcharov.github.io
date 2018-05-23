@@ -5,7 +5,7 @@ import * as React from 'react';
 import ProjectContainer from './Components/ProjectContainer';
 
 // Assets
-import './Projects.css';
+import './projects.css';
 import QlikImage from '../assets/img/Qlik.png';
 import DialogcImage from '../assets/img/dialogc.png';
 import WildebeestImage from '../assets/img/wildebeest.png';

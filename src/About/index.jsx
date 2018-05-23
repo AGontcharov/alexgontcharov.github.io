@@ -5,9 +5,12 @@ import * as React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
 
 // Assets
-import './About.css';
+import './about.css';
 import ProfileImage from '../assets/img/profile.jpg';
 import ScubaImage from '../assets/img/scubaDiving.jpg';
+
+// To Do
+// Fix ugly {' '}
 
 type Props = {};
 

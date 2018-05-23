@@ -6,7 +6,7 @@ import Links from './Links';
 import Social from './Social';
 
 // CSS
-import './Footer.css';
+import './footer.css';
 
 // Bootstrap
 import { Grid, Row, Col } from 'react-bootstrap';
