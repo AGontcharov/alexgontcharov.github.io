@@ -1,0 +1,20 @@
+.project-image img {
+  width: 100%;
+  height: 100%;
+  padding-top: 25px; /* Alings the top of image with the text. */
+}
+
+.description-container h3 {
+  color: rgb(51, 119, 204);
+  letter-spacing: -0.5px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.sub-heading {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  color: #5e9516;
+  font-size: 17px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
