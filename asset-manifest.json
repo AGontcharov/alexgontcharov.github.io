@@ -1,11 +1,18 @@
 {
-  "main.css": "static/css/main.5c802036.css",
-  "main.css.map": "static/css/main.5c802036.css.map",
-  "main.js": "static/js/main.1202f363.js",
-  "main.js.map": "static/js/main.1202f363.js.map",
+  "main.css": "static/css/main.b4c0cf65.css",
+  "main.css.map": "static/css/main.b4c0cf65.css.map",
+  "main.js": "static/js/main.8a05b105.js",
+  "main.js.map": "static/js/main.8a05b105.js.map",
+  "static/media/Qlik.png": "static/media/Qlik.aaf74e57.png",
+  "static/media/artificialNeuralNetwork.jpg": "static/media/artificialNeuralNetwork.2316affd.jpg",
+  "static/media/cover.jpg": "static/media/cover.13e58b56.jpg",
+  "static/media/dialogc.png": "static/media/dialogc.cf28c99a.png",
   "static/media/glyphicons-halflings-regular.eot": "static/media/glyphicons-halflings-regular.f4769f9b.eot",
   "static/media/glyphicons-halflings-regular.svg": "static/media/glyphicons-halflings-regular.89889688.svg",
   "static/media/glyphicons-halflings-regular.ttf": "static/media/glyphicons-halflings-regular.e18bbf61.ttf",
   "static/media/glyphicons-halflings-regular.woff": "static/media/glyphicons-halflings-regular.fa277232.woff",
-  "static/media/glyphicons-halflings-regular.woff2": "static/media/glyphicons-halflings-regular.448c34a5.woff2"
+  "static/media/glyphicons-halflings-regular.woff2": "static/media/glyphicons-halflings-regular.448c34a5.woff2",
+  "static/media/profile.jpg": "static/media/profile.f8c8492a.jpg",
+  "static/media/scubaDiving.jpg": "static/media/scubaDiving.8e8dbaf8.jpg",
+  "static/media/wildebeest.png": "static/media/wildebeest.2571edb8.png"
 }
