@@ -42,10 +42,6 @@
 
 .newsletter-box .btn {
   border: 1px solid #bac1c8;
-  /* -webkit-border-radius: 3px; */
-  /* -moz-border-radius: 3px; */
-  /* -o-border-radius: 3px; */
-  /* -ms-border-radius: 3px; */
   border-radius: 3px;
   display: inline-block;
   height: 40px;
@@ -71,10 +67,6 @@
 .social li {
   background: none repeat scroll 0 0 #b5b5b5;
   border: 2px solid #b5b5b5;
-  /* -webkit-border-radius: 50%; */
-  /* -moz-border-radius: 50%; */
-  /* -o-border-radius: 50%; */
-  /* -ms-border-radius: 50%; */
   border-radius: 50%;
 
   display: inline-block;
@@ -86,18 +78,10 @@
   width: 36px;
 
   transition: all 0.5s ease 0s;
-  /* -moz-transition: all 0.5s ease 0s; */
-  /* -webkit-transition: all 0.5s ease 0s; */
-  /* -ms-transition: all 0.5s ease 0s; */
-  /* -o-transition: all 0.5s ease 0s; */
 }
 
 .social li:hover {
   transform: scale(1.15) rotate(360deg);
-  /* -webkit-transform: scale(1.1) rotate(360deg); */
-  /* -moz-transform: scale(1.1) rotate(360deg); */
-  /* -ms-transform: scale(1.1) rotate(360deg); */
-  /* -o-transform: scale(1.1) rotate(360deg); */
 }
 
 .social li a {
