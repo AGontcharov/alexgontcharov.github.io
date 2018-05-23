@@ -7,6 +7,9 @@ import HomePage from './Home';
 import ProjectsPage from './Projects';
 import AboutPage from './About';
 
+// To Do
+// Home page not loaded
+
 type Props = {};
 
 const Routes = (props: Props) => {
