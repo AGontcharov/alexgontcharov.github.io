@@ -5,6 +5,9 @@ import { IndexLinkContainer, LinkContainer } from 'react-router-bootstrap';
 // Bootstrap
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
+// To Do
+// Navbar Brand link
+
 type Props = {};
 
 const Header = (props: Props) => {

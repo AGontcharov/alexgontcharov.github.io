@@ -1,0 +1,52 @@
+/* Because using tables is out of date */
+.profile-parent {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 400px;
+}
+
+.scuba-description a {
+  text-decoration: none;
+}
+
+.scuba-description a:hover {
+  color: #ff8c1a;
+}
+
+.scuba-img {
+  width: 100%;
+  border-radius: 24px;
+  margin: 16px 0;
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+  .profile-description p,
+  .scuba-description p {
+    text-align: justify;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .profile-image {
+    /* Center differently? */
+    display: block;
+    margin: 0 auto;
+
+    /* Change to margin? */
+    padding-bottom: 32px;
+  }
+
+  /* Remove flex display so bootstrap can takeover */
+  .profile-parent {
+    display: block;
+  }
+}
