@@ -1,6 +1,6 @@
 // @flow
 import * as React from 'react';
-import { LinkContainer } from 'react-router-bootstrap';
+import { IndexLinkContainer, LinkContainer } from 'react-router-bootstrap';
 
 // Bootstrap
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
@@ -18,15 +18,15 @@ const Header = (props: Props) => {
       </Navbar.Header>
       <Navbar.Collapse>
         <Nav pullRight>
-          <LinkContainer to="/">
-            <NavItem eventKey={1}>Home</NavItem>
-          </LinkContainer>
+          <IndexLinkContainer to="/">
+            <NavItem>Home</NavItem>
+          </IndexLinkContainer>
           <LinkContainer to="/projects">
-            <NavItem eventKey={2}>Project</NavItem>
+            <NavItem>Project</NavItem>
           </LinkContainer>
-          <NavItem eventKey={3}>Resume</NavItem>
+          <NavItem>Resume</NavItem>
           <LinkContainer to="/about">
-            <NavItem eventKey={4}>About</NavItem>
+            <NavItem>About</NavItem>
           </LinkContainer>
         </Nav>
       </Navbar.Collapse>
