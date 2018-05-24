@@ -13,11 +13,11 @@ const Profile = (props: Props) => {
   return (
     <Row>
       <div className="profile-parent">
-        <Col xs={12} lg={5} xsPull>
+        <Col xs={12} lg={5}>
           <img className="profile-image" src={ProfileImage} alt="Profile" />
         </Col>
 
-        <Col xs={12} lg={7} xsPush>
+        <Col xs={12} lg={7}>
           <div className="profile-description">
             <p>
               Recently graduated Software Engineer at the University of Guelph.

@@ -12,6 +12,7 @@ import WildebeestImage from '../assets/img/wildebeest.png';
 import ArtificalImage from '../assets/img/artificialNeuralNetwork.jpg';
 
 // To Do
+// Not secure on this page
 // Rivals.GG Image
 // Genetic Algorithms Image
 

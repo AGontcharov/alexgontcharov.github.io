@@ -16,7 +16,7 @@ const Scuba = (props: Props) => {
   return (
     <Row>
       <Col xs={12}>
-        <div class="scuba-description">
+        <div className="scuba-description">
           <p>
             In Bermuda I discovered my love for scuba diving and started an
             internship with Blue Water Divers
