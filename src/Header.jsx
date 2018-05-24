@@ -1,6 +1,5 @@
 // @flow
 import * as React from 'react';
-// import { IndexLinkContainer, LinkContainer } from 'react-router-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 // Bootstrap
@@ -17,7 +16,7 @@ const Header = (props: Props) => {
   return (
     <Navbar inverse collapseOnSelect>
       <Navbar.Header>
-        <LinkContainer to="/">
+        <LinkContainer to="/" exact>
           <Navbar.Brand>Alexander Gontcharov</Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle />
