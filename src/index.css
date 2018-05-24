@@ -1,10 +1,17 @@
-/* How the fuck to do this */
-/* @font-face {
-  font-family: 'Raleway';
-  src: local('Raleway'), url(./assets/Raleway/Raleway-Regular.tff) format(truetype);
-} */
-
+/* To Do */
 /* Material Design later*/
+
+/* @font-face { */
+/* font-family: 'Lato'; */
+/* src: local('Lato') url(./assets/Lato/Lato-Regular.ttf) format('truetype'); */
+/* src: local('Lato') url(./assets/Lato/Lato-Regular.ttf) format('truetype'); */
+/* src: local('Lato') url(./assets/Lato/Lato-Light.ttf) format('truetype'); */
+/* } */
+
+@font-face {
+  font-family: 'Raleway';
+  src: local('Raleway'), url(./assets/Raleway/Raleway-Regular.ttf) format('truetype');
+}
 
 html,
 body {
