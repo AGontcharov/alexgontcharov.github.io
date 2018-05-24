@@ -30,7 +30,10 @@ const Footer = (props: Props) => {
       </div>
 
       <div className="footer-bottom">
-        <p>Copyright © 2017 Alexander Gontcharov. All right reserved.</p>
+        <p>
+          Copyright © {new Date().getFullYear()} Alexander Gontcharov. All right
+          reserved.
+        </p>
       </div>
     </React.Fragment>
   );

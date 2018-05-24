@@ -23,8 +23,8 @@ const Social = (props: Props) => {
         <li>
           <div className="newsletter-box">
             <Button type="button" className="btn bg-gray">
-              <React.Fragment>Email </React.Fragment>
-              <FontAwesomeIcon size="1x" icon={faLongArrowRight} />
+              Email
+              <FontAwesomeIcon id="send-email" icon={faLongArrowRight} />
             </Button>
           </div>
         </li>
