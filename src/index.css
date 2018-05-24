@@ -48,6 +48,9 @@ h3 {
   border-radius: 0;
 }
 
-.navbar-header {
-  cursor: pointer;
+/* Desktop */
+@media (min-width: 768px) {
+  .navbar .nav > .active {
+    border-bottom: 2px solid red;
+  }
 }
