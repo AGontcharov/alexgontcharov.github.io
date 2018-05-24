@@ -47,3 +47,7 @@ h3 {
   background: #080808;
   border-radius: 0;
 }
+
+.navbar-header {
+  cursor: pointer;
+}

@@ -6,11 +6,7 @@ import { LinkContainer } from 'react-router-bootstrap';
 // Bootstrap
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
-// Assets
-// import Resume from './assets/resume.pdf';
-
 // To Do
-// Navbar Brand link
 // Add red border undearneath?
 // Increase navbar size?
 // LinkContainer for resume?
@@ -21,9 +17,9 @@ const Header = (props: Props) => {
   return (
     <Navbar inverse collapseOnSelect>
       <Navbar.Header>
-        <Navbar.Brand>
-          <a href="/alexgontcharov.github.io">Alexander Gontcharov</a>
-        </Navbar.Brand>
+        <LinkContainer to="/">
+          <Navbar.Brand>Alexander Gontcharov</Navbar.Brand>
+        </LinkContainer>
         <Navbar.Toggle />
       </Navbar.Header>
       <Navbar.Collapse>
@@ -39,14 +35,14 @@ const Header = (props: Props) => {
           </LinkContainer>
 
           {/* Resume Page*/}
-          {/* <NavItem
+          <NavItem
             eventKey={0}
             onClick={event => {
               event.preventDefault();
               window.open('resume.pdf');
             }}>
             Resume
-          </NavItem> */}
+          </NavItem>
 
           {/* About Page */}
           <LinkContainer to="/about">
