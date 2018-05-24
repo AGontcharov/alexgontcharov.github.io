@@ -24,11 +24,9 @@
 }
 
 .footer ul {
-  font-size: 13px;
   list-style-type: none;
-  margin-left: 0;
-  padding-left: 0;
-  margin-top: 15px;
+  padding: 0;
+  margin: 16px;
   color: #7f8c8d;
   text-align: center;
 }
@@ -36,7 +34,7 @@
 .github-links li a {
   display: inline-block;
   padding-bottom: 4px;
-  font-size: 13px;
+  font-size: 14px;
   color: #78828d;
 }
 
@@ -46,7 +44,7 @@
   overflow: hidden;
 }
 
-.newsletter-box .btn {
+.send-button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,17 +54,14 @@
   padding: 0;
   width: 50%;
   color: #fff;
-}
-
-.newsletter-box .btn:hover {
-  background: white;
-  color: #7f8c8d;
-}
-
-/* Doesn't work? */
-.bg-gray {
+  background-image: unset;
   background-color: #dcdcdc;
   box-shadow: 0 1px 0 #b4b3b3;
+}
+
+.send-button:hover {
+  background: white;
+  color: #7f8c8d;
 }
 
 #send-email {
@@ -127,12 +122,10 @@
 .footer-bottom {
   background: #e3e3e3;
   border-top: 1px solid #dddddd;
-  padding: 15px 0;
+  padding: 16px;
 }
 
 .footer-bottom p {
   font-size: 13px;
-  margin: 0;
-  padding: 0 15px;
   text-align: center;
 }

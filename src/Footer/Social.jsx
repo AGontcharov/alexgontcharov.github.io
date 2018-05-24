@@ -22,7 +22,7 @@ const Social = (props: Props) => {
       <ul>
         <li>
           <div className="newsletter-box">
-            <Button type="button" className="btn bg-gray">
+            <Button type="button" className="send-button">
               Email
               <FontAwesomeIcon id="send-email" icon={faLongArrowRight} />
             </Button>
