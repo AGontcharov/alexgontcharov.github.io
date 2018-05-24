@@ -6,7 +6,7 @@ import { Grid, Row, Col, Button } from 'react-bootstrap';
 
 type Props = {
   name: string,
-  image: string | any,
+  image: string,
   imageAlt: string,
   sub: string,
   description: string,

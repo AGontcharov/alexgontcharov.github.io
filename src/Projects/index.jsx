@@ -6,15 +6,12 @@ import ProjectContainer from './Components/ProjectContainer';
 
 // Assets
 import './projects.css';
+import NotAvailable from '../assets/img/NotAvailable.jpg';
 import QlikImage from '../assets/img/Qlik.png';
 import DialogcImage from '../assets/img/dialogc.png';
 import WildebeestImage from '../assets/img/wildebeest.png';
 import ArtificalImage from '../assets/img/artificialNeuralNetwork.jpg';
-
-// To Do
-// Not secure on this page
-// Rivals.GG Image
-// Genetic Algorithms Image
+import GeneticAlgorithms from '../assets/img/GeneticAlgorithms.png';
 
 type Props = {};
 
@@ -23,7 +20,7 @@ const Projects = (props: Props) => {
     <React.Fragment>
       <h1>Projects</h1>
       <ProjectContainer
-        image="http://picolas.de/wp-content/uploads/2015/12/picolas-picture-not-available.jpg"
+        image={NotAvailable}
         imageAlt="Rivals.GG Project"
         name="Rivals.GG"
         sub="MySQL, Express, AngularJS, Node.js"
@@ -68,7 +65,7 @@ const Projects = (props: Props) => {
       />
 
       <ProjectContainer
-        image="https://nnpdf.hepforge.org/images/GA.png"
+        image={GeneticAlgorithms}
         imageAlt="Genetic Algorithms Project"
         name="Genetic Algorithms"
         sub="C, Makefile"
