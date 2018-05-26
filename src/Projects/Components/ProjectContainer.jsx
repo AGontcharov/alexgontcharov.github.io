@@ -22,10 +22,10 @@ const ProjectContainer = (props: Props) => {
   return (
     <Grid style={{ marginBottom: '64px' }}>
       <Row>
-        <Col xs={12} lg={6} className="project-image">
+        <Col xs={12} sm={6} className="project-image">
           <img src={image} alt={imageAlt} />
         </Col>
-        <Col xs={12} lg={6}>
+        <Col xs={12} sm={6}>
           <div className="description-container">
             <h3>{name}</h3>
             <p className="sub-heading">{sub}</p>
