@@ -11,6 +11,19 @@
   src: local('Raleway'), url(./assets/fonts/Raleway-Regular.ttf) format('truetype');
 }
 
+/* Remove bootstrap overflow/spacing on mobile */
+@media (max-width: 768px) {
+  div.row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  div.col-xs-6 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 html,
 body {
   margin: 0;
