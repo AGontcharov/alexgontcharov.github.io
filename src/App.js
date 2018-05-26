@@ -2,9 +2,9 @@
 import * as React from 'react';
 
 // Components
-import Header from './Header';
+import Header from './Layout/Header';
+import Footer from './Layout/Footer';
 import Routes from './Routes';
-import Footer from './Footer';
 
 class App extends React.Component<React.Node> {
   render() {
