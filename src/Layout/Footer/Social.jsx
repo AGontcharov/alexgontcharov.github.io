@@ -22,8 +22,12 @@ const Social = (props: Props) => {
       <ul>
         <li>
           <div className="newsletter-box">
-            {/* TODO: Button onClick */}
-            <Button type="button" className="send-button">
+            <Button
+              type="button"
+              className="send-button"
+              onClick={() => {
+                window.location.href = 'mailto:alexander.goncharov@gmail.com';
+              }}>
               Email
               <FontAwesomeIcon id="send-email" icon={faLongArrowRight} />
             </Button>
