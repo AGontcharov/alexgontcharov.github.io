@@ -1,14 +1,13 @@
 // @flow
 import * as React from 'react';
-import { Switch, Route } from 'react-router';
+import { Switch, Route } from 'react-router-dom';
+// import Switch from 'react-router-dom/es/Switch';
+// import Route from 'react-router-dom/es/Route';
 
 // Components
 import HomePage from './Home';
 import ProjectsPage from './Projects';
 import AboutPage from './About';
-
-// To Do
-// Home page not loaded
 
 type Props = {};
 

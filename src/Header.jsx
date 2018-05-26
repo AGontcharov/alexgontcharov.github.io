@@ -1,12 +1,12 @@
 // @flow
 import * as React from 'react';
 import { LinkContainer } from 'react-router-bootstrap';
-import { NavLink } from 'react-router-dom';
+import NavLink from 'react-router-dom/NavLink';
 
 // Bootstrap
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
-// To Do
+// TODO:
 // Increase navbar size?
 // LinkContainer for resume?
 
