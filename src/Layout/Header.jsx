@@ -11,7 +11,7 @@ import Navbar from 'react-bootstrap/es/Navbar';
 import Nav from 'react-bootstrap/es/Nav';
 import NavItem from 'react-bootstrap/es/NavItem';
 
-import Resume from '../assets/resume.pdf';
+import Resume from '../resume.pdf';
 
 // TODO:
 // Increase navbar size?
