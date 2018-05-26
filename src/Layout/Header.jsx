@@ -11,9 +11,10 @@ import Navbar from 'react-bootstrap/es/Navbar';
 import Nav from 'react-bootstrap/es/Nav';
 import NavItem from 'react-bootstrap/es/NavItem';
 
+import Resume from '../assets/resume.pdf';
+
 // TODO:
 // Increase navbar size?
-// LinkContainer for resume?
 
 type Props = {};
 
@@ -38,22 +39,14 @@ const Header = (props: Props) => {
             <NavItem>Project</NavItem>
           </LinkContainer>
 
-          {/* Resume Page*/}
-          <NavItem>Resume</NavItem>
-
-          {/* <LinkContainer to="/resume"> */}
-          {/* <NavItem>Resume</NavItem> */}
-          {/* </LinkContainer> */}
-
-          {/* <NavItem
-            eventKey={0}
+          <LinkContainer
+            to="/resume"
             onClick={event => {
-              console.log('here');
               event.preventDefault();
-              window.open('/resume.pdf');
+              window.open(Resume, 'Resume');
             }}>
-            Resume
-          </NavItem> */}
+            <NavItem>Resume</NavItem>
+          </LinkContainer>
 
           {/* About Page */}
           <LinkContainer to="/about">
