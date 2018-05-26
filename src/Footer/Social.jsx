@@ -2,7 +2,7 @@
 import * as React from 'react';
 
 // Bootstrap
-import { Button } from 'react-bootstrap';
+import Button from 'react-bootstrap/es/Button';
 
 // FontAwesome
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
@@ -22,6 +22,7 @@ const Social = (props: Props) => {
       <ul>
         <li>
           <div className="newsletter-box">
+            {/* TODO: Button onClick */}
             <Button type="button" className="send-button">
               Email
               <FontAwesomeIcon id="send-email" icon={faLongArrowRight} />
@@ -31,9 +32,7 @@ const Social = (props: Props) => {
       </ul>
       <ul className="social">
         <li id="facebook">
-          <a
-            href="https://www.facebook.com/alexander.gontcharov"
-            title="Facebook">
+          <a href="https://www.facebook.com/alexander.gontcharov" title="Facebook">
             <FontAwesomeIcon icon={faFacebook} />
           </a>
         </li>

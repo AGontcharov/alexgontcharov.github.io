@@ -2,7 +2,10 @@
 import * as React from 'react';
 
 // Bootstrap
-import { Grid, Row, Col, Button } from 'react-bootstrap';
+import Grid from 'react-bootstrap/es/Grid';
+import Row from 'react-bootstrap/es/Row';
+import Col from 'react-bootstrap/es/Col';
+import Button from 'react-bootstrap/es/Button';
 
 type Props = {
   name: string,

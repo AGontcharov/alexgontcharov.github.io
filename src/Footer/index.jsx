@@ -9,7 +9,9 @@ import Social from './Social';
 import './footer.css';
 
 // Bootstrap
-import { Grid, Row, Col } from 'react-bootstrap';
+import Grid from 'react-bootstrap/es/Grid';
+import Row from 'react-bootstrap/es/Row';
+import Col from 'react-bootstrap/es/Col';
 
 type Props = {};
 

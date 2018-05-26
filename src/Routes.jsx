@@ -1,8 +1,7 @@
 // @flow
 import * as React from 'react';
-import { Switch, Route } from 'react-router-dom';
-// import Switch from 'react-router-dom/es/Switch';
-// import Route from 'react-router-dom/es/Route';
+import Switch from 'react-router-dom/Switch';
+import Route from 'react-router-dom/Route';
 
 // Components
 import HomePage from './Home';

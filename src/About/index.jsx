@@ -2,7 +2,7 @@
 import * as React from 'react';
 
 // Bootstrap
-import { Grid } from 'react-bootstrap';
+import Grid from 'react-bootstrap/es/Grid';
 
 // Components
 import Profile from './Profile';

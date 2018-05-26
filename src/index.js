@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import BrowserRouter from 'react-router-dom/es/BrowserRouter';
-import { BrowserRouter as Router } from 'react-router-dom';
+import BrowserRouter from 'react-router-dom/BrowserRouter';
 
 // CSS
 import 'bootstrap/dist/css/bootstrap.css';
@@ -13,9 +12,9 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(
-  <Router basename="alexgontcharov.github.io">
+  <BrowserRouter basename="alexgontcharov.github.io">
     <App />
-  </Router>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
 registerServiceWorker();

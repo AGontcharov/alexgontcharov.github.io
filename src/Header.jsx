@@ -1,10 +1,15 @@
 // @flow
 import * as React from 'react';
-import { LinkContainer } from 'react-router-bootstrap';
 import NavLink from 'react-router-dom/NavLink';
 
+// TODO:
+// Reduce import size
+import { LinkContainer } from 'react-router-bootstrap';
+
 // Bootstrap
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import Navbar from 'react-bootstrap/es/Navbar';
+import Nav from 'react-bootstrap/es/Nav';
+import NavItem from 'react-bootstrap/es/NavItem';
 
 // TODO:
 // Increase navbar size?

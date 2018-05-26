@@ -2,7 +2,8 @@
 import * as React from 'react';
 
 // Bootstrap
-import { Row, Col } from 'react-bootstrap';
+import Row from 'react-bootstrap/es/Row';
+import Col from 'react-bootstrap/es/Col';
 
 // Assets
 import ProfileImage from '../assets/img/profile.jpg';
