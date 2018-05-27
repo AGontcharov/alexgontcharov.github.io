@@ -2,8 +2,8 @@
 import * as React from 'react';
 
 // Assets
-import './home.css';
-import coverImage from './assets/img/cover.jpg';
+import './Home.css';
+import coverImage from '../../assets/img/cover.jpg';
 
 type Props = {};
 

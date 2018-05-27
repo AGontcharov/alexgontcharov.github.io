@@ -5,13 +5,13 @@ import * as React from 'react';
 import ProjectContainer from './Components/ProjectContainer';
 
 // Assets
-import './projects.css';
-import NotAvailable from '../assets/img/NotAvailable.jpg';
-import QlikImage from '../assets/img/Qlik.png';
-import DialogcImage from '../assets/img/dialogc.png';
-import WildebeestImage from '../assets/img/wildebeest.png';
-import ArtificalImage from '../assets/img/artificialNeuralNetwork.jpg';
-import GeneticAlgorithms from '../assets/img/GeneticAlgorithms.png';
+import './Projects.css';
+import NotAvailable from '../../assets/img/NotAvailable.jpg';
+import QlikImage from '../../assets/img/Qlik.png';
+import DialogcImage from '../../assets/img/dialogc.png';
+import WildebeestImage from '../../assets/img/wildebeest.png';
+import ArtificalImage from '../../assets/img/artificialNeuralNetwork.jpg';
+import GeneticAlgorithms from '../../assets/img/GeneticAlgorithms.png';
 
 type Props = {};
 

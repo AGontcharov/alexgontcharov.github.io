@@ -4,9 +4,9 @@ import Switch from 'react-router-dom/Switch';
 import Route from 'react-router-dom/Route';
 
 // Components
-import HomePage from './Home';
-import ProjectsPage from './Projects';
-import AboutPage from './About';
+import HomePage from './Routes/Home';
+import ProjectsPage from './Routes/Projects';
+import AboutPage from './Routes/About';
 
 type Props = {};
 

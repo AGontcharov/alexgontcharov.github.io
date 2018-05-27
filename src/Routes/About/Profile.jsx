@@ -6,7 +6,7 @@ import Row from 'react-bootstrap/es/Row';
 import Col from 'react-bootstrap/es/Col';
 
 // Assets
-import ProfileImage from '../assets/img/profile.jpg';
+import ProfileImage from '../../assets/img/profile.jpg';
 
 type Props = {};
 

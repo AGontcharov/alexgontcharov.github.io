@@ -7,14 +7,14 @@ import Col from 'react-bootstrap/es/Col';
 import Lightbox from 'react-images';
 
 // Assets
-import SkiJump from '../assets/img/skiJump.jpg';
-import Forceful from '../assets/img/forceful.jpg';
-import Jaccuzi from '../assets/img/jaccuzi.jpg';
-import Soccer from '../assets/img/soccer.jpg';
-import SkiJumpFull from '../assets/img/skiJumpFull.jpg';
-import ForcefulFull from '../assets/img/forcefulFull.jpg';
-import JaccuziFull from '../assets/img/jaccuziFull.jpg';
-import SoccerFull from '../assets/img/soccerFull.jpg';
+import SkiJump from '../../assets/img/skiJump.jpg';
+import Forceful from '../../assets/img/forceful.jpg';
+import Jaccuzi from '../../assets/img/jaccuzi.jpg';
+import Soccer from '../../assets/img/soccer.jpg';
+import SkiJumpFull from '../../assets/img/skiJumpFull.jpg';
+import ForcefulFull from '../../assets/img/forcefulFull.jpg';
+import JaccuziFull from '../../assets/img/jaccuziFull.jpg';
+import SoccerFull from '../../assets/img/soccerFull.jpg';
 
 type Props = {};
 
