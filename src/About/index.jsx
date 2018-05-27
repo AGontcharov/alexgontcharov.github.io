@@ -7,6 +7,7 @@ import Grid from 'react-bootstrap/es/Grid';
 // Components
 import Profile from './Profile';
 import Scuba from './Scuba';
+import Gallery from './Gallery';
 
 // Assets
 import './about.css';
@@ -22,6 +23,7 @@ const About = (props: Props) => {
       <Grid>
         <Profile />
         <Scuba />
+        <Gallery />
       </Grid>
     </React.Fragment>
   );

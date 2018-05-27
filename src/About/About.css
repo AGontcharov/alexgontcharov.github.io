@@ -50,3 +50,24 @@
     display: block;
   }
 }
+
+.about-subheading {
+  text-align: center;
+  margin: 16px;
+}
+
+#thumbnail {
+  margin: 24px 0;
+}
+
+#thumbnail img {
+  width: 100%;
+  opacity: 0.85;
+}
+
+#thumbnail img:hover,
+#thumbnail img:active {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  opacity: 1;
+  cursor: pointer;
+}

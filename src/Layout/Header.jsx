@@ -39,6 +39,7 @@ const Header = (props: Props) => {
             <NavItem>Project</NavItem>
           </LinkContainer>
 
+          {/* Resume */}
           <LinkContainer
             to="/resume"
             onClick={event => {
