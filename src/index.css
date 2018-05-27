@@ -52,8 +52,7 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   font-size: 40px;
-  padding-top: 30px;
-  padding-bottom: 20px;
+  margin: 32px;
 }
 
 h3 {

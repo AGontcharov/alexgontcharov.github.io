@@ -29,7 +29,7 @@ export default class Gallery extends React.Component<Props, State> {
     currentImage: 0
   };
 
-  openLightbox(index: number, event) {
+  openLightbox(index: number, event: SyntheticEvent<>) {
     event.preventDefault();
     this.setState({
       currentImage: index,
@@ -65,8 +65,8 @@ export default class Gallery extends React.Component<Props, State> {
   render() {
     const thumbnails = [
       { src: SkiJump, caption: 'Skiing in the French Alps - Méribel' },
-      { src: Forceful, caption: 'Diving in Bermuda at the Tugs' },
-      { src: Jaccuzi, caption: 'No place like home' },
+      { src: Forceful, caption: 'Diving at the Tugs in Bermuda' },
+      { src: Jaccuzi, caption: 'No place like home - Bermuda' },
       { src: Soccer, caption: 'Explore in Québec City' }
     ];
 
