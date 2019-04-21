@@ -5,13 +5,15 @@ import * as React from 'react';
 import Button from 'react-bootstrap/es/Button';
 
 // FontAwesome
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import faLongArrowRight from '@fortawesome/fontawesome-free-solid/faLongArrowAltRight';
-import faFacebook from '@fortawesome/fontawesome-free-brands/faFacebookF';
-import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter';
-import faSkype from '@fortawesome/fontawesome-free-brands/faSkype';
-import faLinkedin from '@fortawesome/fontawesome-free-brands/faLinkedinIn';
-import faGithub from '@fortawesome/fontawesome-free-brands/faGithub';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
+import {
+  faGithub,
+  faLinkedinIn,
+  faSkype,
+  faTwitter,
+  faFacebookF
+} from '@fortawesome/free-brands-svg-icons';
 
 type Props = {};
 
@@ -29,7 +31,7 @@ const Social = (props: Props) => {
                 window.location.href = 'mailto:alexander.goncharov@gmail.com';
               }}>
               Email
-              <FontAwesomeIcon id="send-email" icon={faLongArrowRight} />
+              <FontAwesomeIcon id="send-email" icon={faLongArrowAltRight} />
             </Button>
           </div>
         </li>
@@ -37,7 +39,7 @@ const Social = (props: Props) => {
       <ul className="social">
         <li id="facebook">
           <a href="https://www.facebook.com/alexander.gontcharov" title="Facebook">
-            <FontAwesomeIcon icon={faFacebook} />
+            <FontAwesomeIcon icon={faFacebookF} />
           </a>
         </li>
         <li id="twitter">
@@ -52,7 +54,7 @@ const Social = (props: Props) => {
         </li>
         <li id="linkedin">
           <a href="https://www.linkedin.com/in/agontcharov">
-            <FontAwesomeIcon icon={faLinkedin} />
+            <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
         </li>
         <li id="github">
