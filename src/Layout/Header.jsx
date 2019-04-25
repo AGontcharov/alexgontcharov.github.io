@@ -1,9 +1,6 @@
 // @flow
 import * as React from 'react';
 import { NavLink } from 'react-router-dom';
-
-// TODO:
-// Reduce import size
 import { LinkContainer } from 'react-router-bootstrap';
 
 // Bootstrap
