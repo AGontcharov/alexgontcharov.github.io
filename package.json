@@ -37,7 +37,6 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "flow-bin": "^0.97.0",
     "gh-pages": "^2.0.1"
   },
   "browserslist": [
