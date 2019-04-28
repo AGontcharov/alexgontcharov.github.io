@@ -1,9 +1,6 @@
-// @flow
-import * as React from 'react';
+import React from 'react';
 
-type Props = {};
-
-const Links = (props: Props) => {
+const Links = () => {
   return (
     <React.Fragment>
       <h3>Don't forget!</h3>

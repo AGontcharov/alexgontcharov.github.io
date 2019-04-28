@@ -1,15 +1,12 @@
-// @flow
-import * as React from 'react';
+import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 // Components
-import HomePage from './Routes/Home';
-import ProjectsPage from './Routes/Projects';
-import AboutPage from './Routes/About';
+import HomePage from './Home';
+import ProjectsPage from './Projects';
+import AboutPage from './About';
 
-type Props = {};
-
-const Routes = (props: Props) => {
+const Routes = () => {
   return (
     <Switch>
       <Route path="/" exact component={HomePage} />

@@ -1,16 +1,12 @@
-// @flow
-import * as React from 'react';
+import React from 'react';
 
 // Bootstrap
-import Row from 'react-bootstrap/es/Row';
-import Col from 'react-bootstrap/es/Col';
+import { Row, Col } from 'react-bootstrap';
 
 // Assets
 import ScubaImage from '../../assets/img/scubaDiving.jpg';
 
-type Props = {};
-
-const Scuba = (props: Props) => {
+const Scuba = () => {
   return (
     <Row>
       <Col xs={12}>

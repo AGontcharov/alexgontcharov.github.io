@@ -1,8 +1,7 @@
-// @flow
-import * as React from 'react';
+import React from 'react';
 
 // Bootstrap
-import Grid from 'react-bootstrap/es/Grid';
+import { Grid } from 'react-bootstrap';
 
 // Components
 import Profile from './Profile';
@@ -12,9 +11,7 @@ import Gallery from './Gallery';
 // Assets
 import './About.css';
 
-type Props = {};
-
-const About = (props: Props) => {
+const About = () => {
   return (
     <React.Fragment>
       <h1>

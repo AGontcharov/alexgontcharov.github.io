@@ -1,16 +1,12 @@
-// @flow
-import * as React from 'react';
+import React from 'react';
 
 // Bootstrap
-import Row from 'react-bootstrap/es/Row';
-import Col from 'react-bootstrap/es/Col';
+import { Row, Col } from 'react-bootstrap';
 
 // Assets
 import ProfileImage from '../../assets/img/profile.jpg';
 
-type Props = {};
-
-const Profile = (props: Props) => {
+const Profile = () => {
   return (
     <Row>
       <div className="profile-parent">

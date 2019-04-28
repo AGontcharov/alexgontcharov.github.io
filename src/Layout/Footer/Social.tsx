@@ -1,8 +1,7 @@
-// @flow
-import * as React from 'react';
+import React from 'react';
 
 // Bootstrap
-import Button from 'react-bootstrap/es/Button';
+import { Button } from 'react-bootstrap';
 
 // FontAwesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -15,23 +14,22 @@ import {
   faFacebookF
 } from '@fortawesome/free-brands-svg-icons';
 
-type Props = {};
+const Social = () => {
+  const onEmailClick = () => {
+    window.location.href = 'mailto:alexander.goncharov@gmail.com';
+  };
 
-const Social = (props: Props) => {
   return (
     <React.Fragment>
       <h3 id="contact">Get in contact!</h3>
       <ul>
         <li>
           <div className="newsletter-box">
-            <Button
-              type="button"
-              className="send-button"
-              onClick={() => {
-                window.location.href = 'mailto:alexander.goncharov@gmail.com';
-              }}>
+            <Button type="button" className="send-button" onClick={onEmailClick}>
               Email
-              <FontAwesomeIcon id="send-email" icon={faLongArrowAltRight} />
+              <div id="send-email">
+                <FontAwesomeIcon icon={faLongArrowAltRight} />
+              </div>
             </Button>
           </div>
         </li>

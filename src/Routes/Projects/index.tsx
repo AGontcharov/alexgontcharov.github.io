@@ -1,5 +1,4 @@
-// @flow
-import * as React from 'react';
+import React from 'react';
 
 // Component
 import ProjectContainer from './Components/ProjectContainer';
@@ -13,9 +12,7 @@ import WildebeestImage from '../../assets/img/wildebeest.png';
 import ArtificalImage from '../../assets/img/artificialNeuralNetwork.jpg';
 import GeneticAlgorithms from '../../assets/img/GeneticAlgorithms.png';
 
-type Props = {};
-
-const Projects = (props: Props) => {
+const Projects = () => {
   return (
     <React.Fragment>
       <h1>Projects</h1>

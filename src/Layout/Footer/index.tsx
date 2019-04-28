@@ -1,5 +1,4 @@
-// @flow
-import * as React from 'react';
+import React from 'react';
 
 // Component
 import Links from './Links';
@@ -9,13 +8,9 @@ import Social from './Social';
 import './footer.css';
 
 // Bootstrap
-import Grid from 'react-bootstrap/es/Grid';
-import Row from 'react-bootstrap/es/Row';
-import Col from 'react-bootstrap/es/Col';
+import { Grid, Row, Col } from 'react-bootstrap';
 
-type Props = {};
-
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <React.Fragment>
       <div className="footer">

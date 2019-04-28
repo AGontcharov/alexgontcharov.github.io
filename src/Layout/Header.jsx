@@ -1,21 +1,17 @@
-// @flow
-import * as React from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { LinkContainer } from 'react-router-bootstrap';
 
 // Bootstrap
-import Navbar from 'react-bootstrap/es/Navbar';
-import Nav from 'react-bootstrap/es/Nav';
-import NavItem from 'react-bootstrap/es/NavItem';
-
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import Resume from '../resume.pdf';
 
-// TODO:
-// Increase navbar size?
+const Header = () => {
+  const onResumeClicked = event => {
+    event.preventDefault();
+    window.open(Resume, 'Resume');
+  };
 
-type Props = {};
-
-const Header = (props: Props) => {
   return (
     <Navbar inverse collapseOnSelect>
       <Navbar.Header>
@@ -26,26 +22,18 @@ const Header = (props: Props) => {
       </Navbar.Header>
       <Navbar.Collapse>
         <Nav pullRight>
-          {/* Home Page */}
+          {/* Home Page */}s
           <LinkContainer to="/" exact>
             <NavItem>Home</NavItem>
           </LinkContainer>
-
           {/* Projects Page*/}
           <LinkContainer to="/projects">
             <NavItem>Project</NavItem>
           </LinkContainer>
-
           {/* Resume */}
-          <LinkContainer
-            to="/resume"
-            onClick={event => {
-              event.preventDefault();
-              window.open(Resume, 'Resume');
-            }}>
+          <LinkContainer to="/resume" onClick={onResumeClicked}>
             <NavItem>Resume</NavItem>
           </LinkContainer>
-
           {/* About Page */}
           <LinkContainer to="/about">
             <NavItem>About</NavItem>

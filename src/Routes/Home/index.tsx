@@ -1,13 +1,10 @@
-// @flow
-import * as React from 'react';
+import React from 'react';
 
 // Assets
 import './Home.css';
 import coverImage from '../../assets/img/cover.jpg';
 
-type Props = {};
-
-const Home = (props: Props) => {
+const Home = () => {
   return (
     <div className="home-description">
       <img src={coverImage} alt="Programming on the Beach" />

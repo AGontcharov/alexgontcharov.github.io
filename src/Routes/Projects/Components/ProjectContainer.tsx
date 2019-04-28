@@ -1,20 +1,16 @@
-// @flow
-import * as React from 'react';
+import React from 'react';
 
 // Bootstrap
-import Grid from 'react-bootstrap/es/Grid';
-import Row from 'react-bootstrap/es/Row';
-import Col from 'react-bootstrap/es/Col';
-import Button from 'react-bootstrap/es/Button';
+import { Grid, Row, Col, Button } from 'react-bootstrap';
 
-type Props = {
-  name: string,
-  image: string,
-  imageAlt: string,
-  sub: string,
-  description: string,
-  githubLink: string
-};
+interface Props {
+  name: string;
+  image: string;
+  imageAlt: string;
+  sub: string;
+  description: string;
+  githubLink: string;
+}
 
 const ProjectContainer = (props: Props) => {
   const { image, imageAlt, name, sub, description, githubLink } = props;
