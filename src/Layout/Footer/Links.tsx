@@ -26,7 +26,7 @@ const Links = () => {
           </a>
         </li>
         <li>
-          <a href="https://github.com/AGontcharov/Rivals.GG">Rivals.gg</a>
+          <a href="https://github.com/AGontcharov/budget-tracker">Budget Tracker</a>
         </li>
       </ul>
     </React.Fragment>

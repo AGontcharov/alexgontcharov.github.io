@@ -3,14 +3,14 @@ import React from 'react';
 // Bootstrap
 import { Grid, Row, Col, Button } from 'react-bootstrap';
 
-interface Props {
+type Props = {
   name: string;
   image: string;
   imageAlt: string;
   sub: string;
   description: string;
   githubLink: string;
-}
+};
 
 const ProjectContainer = (props: Props) => {
   const { image, imageAlt, name, sub, description, githubLink } = props;

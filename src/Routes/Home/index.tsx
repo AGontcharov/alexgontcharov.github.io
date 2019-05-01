@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Assets
-import './Home.css';
+import './home.css';
 import coverImage from '../../assets/img/cover.jpg';
 
 const Home = () => {

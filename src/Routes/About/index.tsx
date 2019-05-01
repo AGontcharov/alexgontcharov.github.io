@@ -9,7 +9,7 @@ import Scuba from './Scuba';
 import Gallery from './Gallery';
 
 // Assets
-import './About.css';
+import './about.css';
 
 const About = () => {
   return (
