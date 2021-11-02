@@ -64,7 +64,7 @@ h3 {
 
 /* Desktop */
 @media (min-width: 768px) {
-  .navbar .nav > .active {
+  .navbar-nav > .active {
     border-bottom: 2px solid red;
   }
 }

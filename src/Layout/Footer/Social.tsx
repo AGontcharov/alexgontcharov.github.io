@@ -1,7 +1,5 @@
-import React from 'react';
-
 // Bootstrap
-import { Button } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
 
 // FontAwesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -11,7 +9,7 @@ import {
   faLinkedinIn,
   faSkype,
   faTwitter,
-  faFacebookF
+  faFacebookF,
 } from '@fortawesome/free-brands-svg-icons';
 
 const Social = () => {
@@ -20,7 +18,7 @@ const Social = () => {
   };
 
   return (
-    <React.Fragment>
+    <>
       <h3 id="contact">Get in contact!</h3>
       <ul>
         <li>
@@ -61,7 +59,7 @@ const Social = () => {
           </a>
         </li>
       </ul>
-    </React.Fragment>
+    </>
   );
 };
 

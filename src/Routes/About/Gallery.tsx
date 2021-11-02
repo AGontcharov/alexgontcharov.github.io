@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import * as React from 'react';
+import Lightbox from 'react-images';
 
 // Bootstrap
-import { Row, Col } from 'react-bootstrap';
-import Lightbox from 'react-images';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 // Assets
 import SkiJump from '../../assets/img/skiJump.jpg';
@@ -15,8 +16,8 @@ import JaccuziFull from '../../assets/img/jaccuziFull.jpg';
 import SoccerFull from '../../assets/img/soccerFull.jpg';
 
 const Gallery = () => {
-  const [isOpen, setOpen] = useState<boolean>(false);
-  const [image, setImage] = useState<number>(0);
+  const [isOpen, setOpen] = React.useState<boolean>(false);
+  const [image, setImage] = React.useState<number>(0);
 
   const openLightbox = (index: number) => (event: React.SyntheticEvent) => {
     event.preventDefault();
@@ -45,18 +46,18 @@ const Gallery = () => {
     { src: SkiJump, caption: 'Skiing in the French Alps - Méribel' },
     { src: Forceful, caption: 'Diving at the Tugs in Bermuda' },
     { src: Jaccuzi, caption: 'No place like home - Bermuda' },
-    { src: Soccer, caption: 'Explore in Québec City' }
+    { src: Soccer, caption: 'Explore in Québec City' },
   ];
 
   const images = [
     { src: SkiJumpFull, caption: 'Skiing in the French Alps - Méribel' },
     { src: ForcefulFull, caption: 'Diving in Bermuda at the Tugs' },
     { src: JaccuziFull, caption: 'No place like home' },
-    { src: SoccerFull, caption: 'Explore in Québec City' }
+    { src: SoccerFull, caption: 'Explore in Québec City' },
   ];
 
   return (
-    <React.Fragment>
+    <>
       <div id="thumbnail">
         <h3 className="about-subheading">My Passion</h3>
         <Row>
@@ -80,7 +81,7 @@ const Gallery = () => {
         onClickThumbnail={gotoImage}
         onClose={closeLightbox}
       />
-    </React.Fragment>
+    </>
   );
 };
 

@@ -1,7 +1,6 @@
-import React from 'react';
-
 // Bootstrap
-import { Row, Col } from 'react-bootstrap';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 // Assets
 import ScubaImage from '../../assets/img/scubaDiving.jpg';

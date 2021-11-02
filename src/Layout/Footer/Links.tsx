@@ -1,8 +1,6 @@
-import React from 'react';
-
 const Links = () => {
   return (
-    <React.Fragment>
+    <>
       <h3>Don't forget!</h3>
       <ul className="github-links">
         <li>
@@ -29,7 +27,7 @@ const Links = () => {
           <a href="https://github.com/AGontcharov/budget-tracker">Budget Tracker</a>
         </li>
       </ul>
-    </React.Fragment>
+    </>
   );
 };
 

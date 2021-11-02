@@ -1,5 +1,3 @@
-import React from 'react';
-
 // Component
 import Links from './Links';
 import Social from './Social';
@@ -8,13 +6,15 @@ import Social from './Social';
 import './footer.css';
 
 // Bootstrap
-import { Grid, Row, Col } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 const Footer = () => {
   return (
-    <React.Fragment>
+    <>
       <div className="footer">
-        <Grid style={{ paddingLeft: 0, paddingRight: 0 }}>
+        <Container style={{ paddingLeft: 0, paddingRight: 0 }}>
           <Row>
             <Col xs={12} md={5}>
               <Links />
@@ -23,7 +23,7 @@ const Footer = () => {
               <Social />
             </Col>
           </Row>
-        </Grid>
+        </Container>
       </div>
 
       <div className="footer-bottom">
@@ -31,7 +31,7 @@ const Footer = () => {
           Copyright © {new Date().getFullYear()} Alexander Gontcharov. All right reserved.
         </p>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

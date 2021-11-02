@@ -1,7 +1,8 @@
-import React from 'react';
-
 // Bootstrap
-import { Grid, Row, Col, Button } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 type Props = {
   name: string;
@@ -16,7 +17,7 @@ const ProjectContainer = (props: Props) => {
   const { image, imageAlt, name, sub, description, githubLink } = props;
 
   return (
-    <Grid style={{ marginBottom: '64px' }}>
+    <Container style={{ marginBottom: '64px' }}>
       <Row>
         <Col xs={12} sm={6} className="project-image">
           <img src={image} alt={imageAlt} />
@@ -27,12 +28,12 @@ const ProjectContainer = (props: Props) => {
             <p className="sub-heading">{sub}</p>
             <p>{description}</p>
             <a href={githubLink}>
-              <Button bsStyle="info">Learn More</Button>
+              <Button variant="info">Learn More</Button>
             </a>
           </div>
         </Col>
       </Row>
-    </Grid>
+    </Container>
   );
 };
 

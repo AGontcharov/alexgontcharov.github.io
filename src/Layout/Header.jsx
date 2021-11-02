@@ -1,45 +1,45 @@
-import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { LinkContainer } from 'react-router-bootstrap';
 
 // Bootstrap
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
+
 import Resume from '../resume.pdf';
 
 const Header = () => {
-  const onResumeClicked = event => {
+  const onResumeClicked = (event) => {
     event.preventDefault();
     window.open(Resume, 'Resume');
   };
 
   return (
-    <Navbar inverse collapseOnSelect>
-      <Navbar.Header>
-        <NavLink to="/" className="navbar-brand">
-          Alexander Gontcharov
-        </NavLink>
+    <Navbar expand="lg" variant="dark" collapseOnSelect>
+      <Container>
+        <Navbar.Brand>
+          <NavLink to="/" className="navbar-brand">
+            {'Alexander Gontcharov'}
+          </NavLink>
+        </Navbar.Brand>
         <Navbar.Toggle />
-      </Navbar.Header>
-      <Navbar.Collapse>
-        <Nav pullRight>
-          {/* Home Page */}s
-          <LinkContainer to="/" exact>
-            <NavItem>Home</NavItem>
-          </LinkContainer>
-          {/* Projects Page*/}
-          <LinkContainer to="/projects">
-            <NavItem>Project</NavItem>
-          </LinkContainer>
-          {/* Resume */}
-          <LinkContainer to="/resume" onClick={onResumeClicked}>
-            <NavItem>Resume</NavItem>
-          </LinkContainer>
-          {/* About Page */}
-          <LinkContainer to="/about">
-            <NavItem>About</NavItem>
-          </LinkContainer>
-        </Nav>
-      </Navbar.Collapse>
+        <Navbar.Collapse className="justify-content-end">
+          <Nav>
+            <LinkContainer to="/" exact>
+              <Nav.Link>{'Home'}</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/projects">
+              <Nav.Link>{'Project'}</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/resume" onClick={onResumeClicked}>
+              <Nav.Link>{'Resume'}</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/about">
+              <Nav.Link>{'About'}</Nav.Link>
+            </LinkContainer>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
     </Navbar>
   );
 };

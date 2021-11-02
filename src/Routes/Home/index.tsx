@@ -1,5 +1,3 @@
-import React from 'react';
-
 // Assets
 import './home.css';
 import coverImage from '../../assets/img/cover.jpg';

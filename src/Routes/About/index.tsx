@@ -1,7 +1,5 @@
-import React from 'react';
-
 // Bootstrap
-import { Grid } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
 
 // Components
 import Profile from './Profile';
@@ -13,16 +11,16 @@ import './about.css';
 
 const About = () => {
   return (
-    <React.Fragment>
+    <>
       <h1>
         About <strong>Me</strong>
       </h1>
-      <Grid>
+      <Container>
         <Profile />
         <Scuba />
         <Gallery />
-      </Grid>
-    </React.Fragment>
+      </Container>
+    </>
   );
 };
 
